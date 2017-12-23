@@ -56,7 +56,7 @@ struct SensorData {
 SensorData sensordata;
 
 unsigned int loopCount = 0;
-const int sleepTime = 5000;
+const int sleepTime = 31000;
 
 
 int            ADCraw;
