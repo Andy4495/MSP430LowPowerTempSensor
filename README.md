@@ -10,7 +10,7 @@ for an implementation of a receiver hub.
 
 My particular design makes use of the prototyping area available on the CC110L
 BoosterPack to make a compact wireless sensor with a standalone MSP430G2553
-PDIP IC (see photo below). However, since the sketch uses the [MspTandV library] (https://gitlab.com/Andy4495/mspTandV), it can be compled for any MSP430 variant
+PDIP IC (see photo below). However, since the sketch uses the [MspTandV library] (https://gitlab.com/Andy4495/mspTandV), it can be compiled for any MSP430 variant
 supported by the library.
 
 Because the processor spends most of its time sleeping, and the only external
