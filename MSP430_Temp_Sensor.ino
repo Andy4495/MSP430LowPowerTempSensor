@@ -2,6 +2,7 @@
   MSP430 Remote Temp Sensor
     11/18/17 - A.T. - Initial version
     01/22/18 - A.T. - Updated to use MspTandV library
+    02/01/18 - A.T. - Update message structure to align on word boundary. 
 */
 /* -----------------------------------------------------------------
    Code structure:
@@ -33,10 +34,13 @@
 #define ADDRESS_LOCAL   0x03
 #define ADDRESS_REMOTE  0x01    // Receiver hub address
 
+enum {WEATHER_STRUCT, TEMP_STRUCT};
+
 struct sPacket
 {
   uint8_t from;           // Local node address that message originated from
-  uint8_t message[59];    // Local node message [MAX. 59 bytes]
+  uint8_t struct_type;    // Flag to indicate type of message structure
+  uint8_t message[58];    // Local node message 
 };
 
 struct sPacket txPacket;
@@ -61,6 +65,7 @@ void setup() {
 
   // CC110L Setup
   txPacket.from = ADDRESS_LOCAL;
+  txPacket.struct_type = TEMP_STRUCT;
   memset(txPacket.message, 0, sizeof(txPacket.message));
   Radio.begin(ADDRESS_LOCAL, CHANNEL_1, POWER_MAX);
 
