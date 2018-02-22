@@ -59,7 +59,7 @@ MspTemp myTemp;
 MspVcc  myVcc;
 
 unsigned int loopCount = 0;
-const int sleepTime = 31000;
+const unsigned long sleepTime = 31000;
 
 void setup() {
 
