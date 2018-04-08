@@ -1,12 +1,14 @@
 /* -----------------------------------------------------------------
   MSP430 Remote Temp Sensor
+  https://gitlab.com/Andy4495/MSP430G2-Temp_Sensor
+
     11/18/17 - A.T. - Initial version
     01/22/18 - A.T. - Updated to use MspTandV library
-    02/01/18 - A.T. - Update message structure to align on word boundary. 
+    02/01/18 - A.T. - Update message structure to align on word boundary.
 */
 /* -----------------------------------------------------------------
    Code structure:
-   Design requires CC110L BoosterPack (430BOOST-CC110L). 
+   Design requires CC110L BoosterPack (430BOOST-CC110L).
 
    setup()
      Radio setup
@@ -40,7 +42,7 @@ struct sPacket
 {
   uint8_t from;           // Local node address that message originated from
   uint8_t struct_type;    // Flag to indicate type of message structure
-  uint8_t message[58];    // Local node message 
+  uint8_t message[58];    // Local node message
 };
 
 struct sPacket txPacket;
@@ -59,7 +61,7 @@ MspTemp myTemp;
 MspVcc  myVcc;
 
 unsigned int loopCount = 0;
-const unsigned long sleepTime = 31000;
+const unsigned long sleepTime = 47000;
 
 void setup() {
 
