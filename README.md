@@ -36,6 +36,12 @@ The sketch collects the following data:
 After collecting the sensor data, the data is packaged and transmitted to a
 receiver hub which can then further process and store the data over time.
 
+Note on G2553/G2452 Low Voltage Operation
+-----------------------------------------
+
+Per Figure 1 in the [MSP430G2553][1] Device Datasheet, the device should only be run at 16 Mhz with a supply voltage of 3.3 V. In order to run at lower voltages (e.g. in a battery-operated setup), you will need to configure a lower system frequency. The device can be run at a supply voltage as low as 2.2 V when running at 8 MHz. By default, Energia sets the G2553 system frequency at 16 Mhz. To run the device at 8 MHz, the `boards.txt` file needs to be edited to add an 8 MHz entry. See [this discussion](https://forum.43oh.com/topic/4094-msp430g2553-1mhz-or-16mhz-how-to-set-it/)
+for tips on editing `boards.txt` to change the system frequency.
+
 ## External Libraries ##
 
 [Calibrated Temperature and Vcc Library](https://gitlab.com/Andy4495/mspTandV)
@@ -51,3 +57,5 @@ receiver hub which can then further process and store the data over time.
 
 - ![Board Front](jpg/G2-Front.jpg)
 - ![Board Back](jpg/G2-Back.jpg)
+
+[1]: http://www.ti.com/lit/ds/symlink/msp430g2553.pdf
