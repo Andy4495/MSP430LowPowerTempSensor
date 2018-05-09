@@ -5,12 +5,12 @@ This project is a coin cell-powered wireless temperature sensor with with a
 430BOOST-CC110L BoosterPack.
 
 Since it is a wireless sensor, it depends on a receiver hub to process and
-store the data. See [Wireless Sensor Receiver Hub] (https://gitlab.com/Andy4495/Sensor-Receiver)
+store the data. See [Wireless Sensor Receiver Hub](https://gitlab.com/Andy4495/Sensor-Receiver)
 for an implementation of a receiver hub.
 
 My particular design makes use of the prototyping area available on the CC110L
 BoosterPack to make a compact wireless sensor with a standalone MSP430G2553
-PDIP IC (see photo below). However, since the sketch uses the [MspTandV library] (https://gitlab.com/Andy4495/mspTandV), it can be compiled for any MSP430 variant
+PDIP IC (see photo below). However, since the sketch uses the [MspTandV library](https://gitlab.com/Andy4495/mspTandV), it can be compiled for any MSP430 variant
 supported by the library.
 
 Because the processor spends most of its time sleeping, and the only external
@@ -38,16 +38,16 @@ receiver hub which can then further process and store the data over time.
 
 ## External Libraries ##
 
-[Calibrated Temperature and Vcc Library] (https://gitlab.com/Andy4495/mspTandV)
+[Calibrated Temperature and Vcc Library](https://gitlab.com/Andy4495/mspTandV)
 
 * Used for the internal MSP430 temperature and battery voltage measurements.
 
 ## References ##
 
-* [CC110L BoosterPack] (http://www.ti.com/tool/430BOOST-CC110L)
-* [Wireless Sensor Receiver Hub] (https://gitlab.com/Andy4495/Sensor-Receiver)
+* [CC110L BoosterPack](http://www.ti.com/tool/430BOOST-CC110L)
+* [Wireless Sensor Receiver Hub](https://gitlab.com/Andy4495/Sensor-Receiver)
 
 ## Integrated MSP430G2553 and Coin Cell Battery on CC110L BoosterPack ##
 
-- ![Board Front] (jpg/G2-Front.jpg)
-- ![Board Back] (jpg/G2-Back.jpg)
+- ![Board Front](jpg/G2-Front.jpg)
+- ![Board Back](jpg/G2-Back.jpg)
