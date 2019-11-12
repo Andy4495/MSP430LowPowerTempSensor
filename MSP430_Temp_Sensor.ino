@@ -1,6 +1,6 @@
 /* -----------------------------------------------------------------
   MSP430 Remote Temp Sensor
-  https://gitlab.com/Andy4495/MSP430G2-Temp_Sensor
+  https://github.com/Andy4495/MSP430LowPowerTempSensor
 
     11/18/17 - A.T. - Initial version
     01/22/18 - A.T. - Updated to use MspTandV library
@@ -24,7 +24,7 @@
 
 /*
     External libraries:
-    - MspTandV https://gitlab.com/Andy4495/mspTandV
+    - MspTandV https://github.com/Andy4495/mspTandV
 
 */
 
