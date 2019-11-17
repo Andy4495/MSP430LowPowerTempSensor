@@ -5,7 +5,7 @@ This project is a coin cell-powered wireless temperature sensor with with a
 430BOOST-CC110L BoosterPack.
 
 Since it is a wireless sensor, it depends on a receiver hub to process and
-store the data. See [Wireless Sensor Receiver Hub](https://github.com/Andy4495/Sensor-Receiver)
+store the data. See [Wireless Sensor Receiver Hub](https://github.com/Andy4495/Wireless-Sensor-Receiver-Hub)
 for an implementation of a receiver hub.
 
 My particular design makes use of the prototyping area available on the CC110L
@@ -15,7 +15,7 @@ supported by the library.
 
 Because the processor spends most of its time sleeping, and the only external
 component is the low-power CC110L BoosterPack, the temperature sensor can
-last for well over a year using a single 3 V lithium coin battery.
+last for well over a year using a single 3 V lithium coin battery. On my current setup, the battery has lasted nearly three years and is still functioning normally.
 
 If using this sketch on a standard LaunchPad, be sure to remove the jumpers
 connecting the processor to the emulation section of the LaunchPad in order
@@ -51,7 +51,7 @@ for tips on editing `boards.txt` to change the system frequency.
 ## References ##
 
 * [CC110L BoosterPack](http://www.ti.com/tool/430BOOST-CC110L)
-* [Wireless Sensor Receiver Hub](https://github.com/Andy4495/Sensor-Receiver)
+* [Wireless Sensor Receiver Hub](https://github.com/Andy4495/Wireless-Sensor-Receiver-Hub)
 
 ## Integrated MSP430G2553 and Coin Cell Battery on CC110L BoosterPack ##
 
