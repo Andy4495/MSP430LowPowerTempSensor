@@ -15,7 +15,7 @@ supported by the library.
 
 Because the processor spends most of its time sleeping, and the only external
 component is the low-power CC110L BoosterPack, the temperature sensor can
-last for well over a year using a single 3 V lithium coin battery. On my current setup, the battery has lasted nearly three years and is still functioning normally.
+last for a considerable amount of time using a single 3 V lithium coin battery. On my current setup, the battery has lasted over two years and is still functioning normally.
 
 If using this sketch on a standard LaunchPad, be sure to remove the jumpers
 connecting the processor to the emulation section of the LaunchPad in order
