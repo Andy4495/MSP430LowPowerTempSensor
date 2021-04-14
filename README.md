@@ -53,9 +53,15 @@ for tips on editing `boards.txt` to change the system frequency.
 * [CC110L BoosterPack](http://www.ti.com/tool/430BOOST-CC110L)
 * [Wireless Sensor Receiver Hub](https://github.com/Andy4495/Wireless-Sensor-Receiver-Hub)
 
+## License ##
+The software and other files in this repository are released under what is commonly called the [MIT License][100]. See the file [`LICENSE.txt`][101] in this repository.
+
+
 ## Integrated MSP430G2553 and Coin Cell Battery on CC110L BoosterPack ##
 
 - ![Board Front](jpg/G2-Front.jpg)
 - ![Board Back](jpg/G2-Back.jpg)
 
 [1]: http://www.ti.com/lit/ds/symlink/msp430g2553.pdf
+[100]: https://choosealicense.com/licenses/mit/
+[101]: ./LICENSE.txt
