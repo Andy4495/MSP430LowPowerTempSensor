@@ -1,5 +1,4 @@
-MSP430 Temperature Sensor
-==============================
+# MSP430 Temperature Sensor
 
 This project is a coin cell-powered wireless temperature sensor with with a
 430BOOST-CC110L BoosterPack.
@@ -21,43 +20,42 @@ If using this sketch on a standard LaunchPad, be sure to remove the jumpers
 connecting the processor to the emulation section of the LaunchPad in order
 to minimize power consumption.
 
-## Program details ##
+## Program details
 
 The sketch collects the following data:
 
 - MSP430
-     - Die temperature in degrees Fahrenheit * 10
-         - For example, 733 represents 73.3 degrees F
-     - Battery voltage (Vcc) in millivolts
-         - For example, 2977 represents 2.977 volts
-     - Number of times "loop()" has run since the last reboot
-     - Current "millis()" value at the time of transmission
+  - Die temperature in degrees Fahrenheit * 10
+    - For example, 733 represents 73.3 degrees F
+  - Battery voltage (Vcc) in millivolts
+    - For example, 2977 represents 2.977 volts
+  - Number of times `loop()` has run since the last reboot
+  - Current `millis()` value at the time of transmission
 
 After collecting the sensor data, the data is packaged and transmitted to a
 receiver hub which can then further process and store the data over time.
 
-Note on G2553/G2452 Low Voltage Operation
------------------------------------------
+## Note on G2553/G2452 Low Voltage Operation
 
 Per Figure 1 in the [MSP430G2553][1] Device Datasheet, the device should only be run at 16 Mhz with a supply voltage of 3.3 V. In order to run at lower voltages (e.g. in a battery-operated setup), you will need to configure a lower system frequency. The device can be run at a supply voltage as low as 2.2 V when running at 8 MHz. By default, Energia sets the G2553 system frequency at 16 Mhz. To run the device at 8 MHz, the `boards.txt` file needs to be edited to add an 8 MHz entry. See [this discussion](https://forum.43oh.com/topic/4094-msp430g2553-1mhz-or-16mhz-how-to-set-it/)
 for tips on editing `boards.txt` to change the system frequency.
 
-## External Libraries ##
+## External Libraries
 
 [Calibrated Temperature and Vcc Library](https://github.com/Andy4495/mspTandV)
 
-* Used for the internal MSP430 temperature and battery voltage measurements.
+- Used for the internal MSP430 temperature and battery voltage measurements.
 
-## References ##
+## References
 
-* [CC110L BoosterPack](http://www.ti.com/tool/430BOOST-CC110L)
-* [Wireless Sensor Receiver Hub](https://github.com/Andy4495/Wireless-Sensor-Receiver-Hub)
+- [CC110L BoosterPack](http://www.ti.com/tool/430BOOST-CC110L)
+- [Wireless Sensor Receiver Hub](https://github.com/Andy4495/Wireless-Sensor-Receiver-Hub)
 
-## License ##
+## License
+
 The software and other files in this repository are released under what is commonly called the [MIT License][100]. See the file [`LICENSE.txt`][101] in this repository.
 
-
-## Integrated MSP430G2553 and Coin Cell Battery on CC110L BoosterPack ##
+## Integrated MSP430G2553 and Coin Cell Battery on CC110L BoosterPack
 
 - ![Board Front](jpg/G2-Front.jpg)
 - ![Board Back](jpg/G2-Back.jpg)
@@ -65,3 +63,4 @@ The software and other files in this repository are released under what is commo
 [1]: http://www.ti.com/lit/ds/symlink/msp430g2553.pdf
 [100]: https://choosealicense.com/licenses/mit/
 [101]: ./LICENSE.txt
+[200]: https://github.com/Andy4495/MSP430LowPowerTempSensor
