@@ -1,5 +1,8 @@
 # MSP430 Temperature Sensor
 
+[![Arduino Compile Sketches](https://github.com/Andy4495/MSP430LowPowerTempSensor/actions/workflows/arduino-compile-sketches.yml/badge.svg)](https://github.com/Andy4495/MSP430LowPowerTempSensor/actions/workflows/arduino-compile-sketches.yml)
+[![Check Markdown Links](https://github.com/Andy4495/MSP430LowPowerTempSensor/actions/workflows/CheckMarkdownLinks.yml/badge.svg)](https://github.com/Andy4495/MSP430LowPowerTempSensor/actions/workflows/CheckMarkdownLinks.yml)
+
 This project is a coin cell-powered wireless temperature sensor with with a
 430BOOST-CC110L BoosterPack.
 
