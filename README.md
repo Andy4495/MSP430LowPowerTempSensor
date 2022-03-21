@@ -51,7 +51,7 @@ for tips on editing `boards.txt` to change the system frequency.
 
 ## References
 
-- [CC110L BoosterPack](http://www.ti.com/tool/430BOOST-CC110L)
+- [CC110L BoosterPack](https://www.digikey.com/en/products/detail/texas-instruments/430BOOST-CC110L/2812673)
 - [Wireless Sensor Receiver Hub](https://github.com/Andy4495/Wireless-Sensor-Receiver-Hub)
 
 ## License
@@ -67,3 +67,5 @@ The software and other files in this repository are released under what is commo
 [100]: https://choosealicense.com/licenses/mit/
 [101]: ./LICENSE.txt
 [200]: https://github.com/Andy4495/MSP430LowPowerTempSensor
+
+[//]: # (Old TI product link that is no longer active: http://www.ti.com/tool/430BOOST-CC110L)
