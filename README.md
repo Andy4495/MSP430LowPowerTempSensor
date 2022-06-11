@@ -65,10 +65,8 @@ The software and other files in this repository are released under what is commo
 - ![Board Back](jpg/G2-Back.jpg)
 
 [1]: http://www.ti.com/lit/ds/symlink/msp430g2553.pdf
-<!-- markdown-link-check-disable -->
 [2]: https://www.digikey.com/en/products/detail/texas-instruments/430BOOST-CC110L/2812673
 [3]: https://www.mouser.com/ProductDetail/Texas-Instruments/430BOOST-CC110L?qs=SKBAQrBh8xr4He0XWA6h2w%3D%3D
-<!-- markdown-link-check-enable-->
 [4]: https://www.ti.com/lit/ml/swru312b/swru312b.pdf
 [100]: https://choosealicense.com/licenses/mit/
 [101]: ./LICENSE.txt
