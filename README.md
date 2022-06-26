@@ -28,7 +28,13 @@ The data is packaged and transmitted to a [receiver hub][5] which can then furth
 
 ## Note on G2553/G2452 Low Voltage Operation
 
-Per Figure 1 in the [MSP430G2553][1] Device Datasheet, the device should only be run at the full 16 Mhz when it has a supply voltage of 3.3 V. In order to run at lower voltages (e.g. in a battery-operated setup), you will need to configure a lower system frequency. The device can be run at a supply voltage as low as 2.2 V when running at 8 MHz. By default, Energia sets the G2553 system frequency at 16 Mhz. To run the device at 8 MHz, the `boards.txt` file needs to be edited to add an 8 MHz entry. See [this discussion][7] for tips on editing `boards.txt` to change the system frequency.
+Per Figure 1 in the [MSP430G2553][1] Device Datasheet, the device should only be run at the full 16 Mhz when it has a supply voltage of 3.3 V. In order to run at lower voltages (e.g. in a battery-operated setup), you will need to configure a lower system frequency. The device can be run at a supply voltage as low as 2.2 V when running at 8 MHz.
+
+By default, the MPS430 boards package sets the G2553 system frequency at 16 Mhz. To run the device at 8 MHz, the `boards.txt` file needs to be edited to add an 8 MHz entry. This repo contains an edited [`boards.txt`](./boards.txt) file which is based on the MSP 1.0.7 board package. An 8 MHz entry for the G2553 processor has been added, along with editing the original G2553 entry to clarify that it is 16 MHz.
+
+The boards.txt file used by Energia is located at `~/Library/Energia15/packages/energia/hardware/msp430/1.0.7` on MacOS, and a similar path on Windows and Linux.
+
+The boards.txt file used by Arduino or Visual Studio Code is located at `~/Library/Arduino15/packages/energia/hardware/msp430/1.0.5` on MacOS, and a similar path on Windows and Linux. Note that the specific package version (1.0.5 in this case) may be different depending on what you have installed.
 
 ## External Libraries
 
@@ -40,6 +46,7 @@ Per Figure 1 in the [MSP430G2553][1] Device Datasheet, the device should only be
 - CC110L BoosterPack obsolete catalog page from [Digikey][2]
 - CC110L BoosterPack [Quick Start Guide][4]
 - [Wireless Sensor Receiver Hub][5]
+- [Discussion][7] for tips on editing `boards.txt` to change the system frequency
 
 ## License
 
