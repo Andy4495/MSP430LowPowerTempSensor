@@ -65,7 +65,7 @@ The software and other files in this repository are released under what is commo
 [7]: https://forum.43oh.com/topic/4094-msp430g2553-1mhz-or-16mhz-how-to-set-it/
 [100]: https://choosealicense.com/licenses/mit/
 [101]: ./LICENSE.txt
-[200]: https://github.com/Andy4495/MSP430LowPowerTempSensor
+[//]: # ([200]: https://github.com/Andy4495/MSP430LowPowerTempSensor)
 
 [//]: # (Old TI product link that is no longer active: http://www.ti.com/tool/430BOOST-CC110L)
 [//]: # (Mouser link that sometimes works: https://www.mouser.com/ProductDetail/Texas-Instruments/430BOOST-CC110L?qs=SKBAQrBh8xr4He0XWA6h2w%3D%3D )
