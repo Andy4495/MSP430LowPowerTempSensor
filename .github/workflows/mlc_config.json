@@ -1,3 +1,4 @@
 {
-    "aliveStatusCodes": [429, 403, 200]
+    "aliveStatusCodes": [429, 403, 200],
+    "timeout": "20s"
 }
