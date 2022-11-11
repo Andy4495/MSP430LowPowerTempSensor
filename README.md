@@ -58,6 +58,7 @@ The software and other files in this repository are released under what is commo
 - ![Board Back](jpg/G2-Back.jpg)
 
 [1]: https://www.ti.com/lit/ds/symlink/msp430g2553.pdf
+<!-- markdown-link-check-disable-next-line -->
 [2]: https://www.digikey.com/en/products/detail/texas-instruments/430BOOST-CC110L/2812673
 [4]: https://www.ti.com/lit/ml/swru312b/swru312b.pdf
 [5]: https://github.com/Andy4495/Wireless-Sensor-Receiver-Hub
