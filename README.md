@@ -46,7 +46,7 @@ The boards.txt file used by Arduino or Visual Studio Code is located at `~/Libra
 - CC110L BoosterPack obsolete catalog page from [Digikey][2]
 - CC110L BoosterPack [Quick Start Guide][4]
 - [Wireless Sensor Receiver Hub][5]
-- [Discussion][7] for tips on editing `boards.txt` to change the system frequency
+- See this [discussion][7] archived from 43oh.com for tips on editing `boards.txt` to change the system frequency
 
 ## License
 
@@ -63,7 +63,7 @@ The software and other files in this repository are released under what is commo
 [4]: https://www.ti.com/lit/ml/swru312b/swru312b.pdf
 [5]: https://github.com/Andy4495/Wireless-Sensor-Receiver-Hub
 [6]: https://github.com/Andy4495/mspTandV
-[7]: https://forum.43oh.com/topic/4094-msp430g2553-1mhz-or-16mhz-how-to-set-it/
+[7]: ./extras/MSP430g2553-1mhz-or-16mhz-how-to-set-it-43oh.pdf
 [100]: https://choosealicense.com/licenses/mit/
 [101]: ./LICENSE.txt
 [//]: # ([200]: https://github.com/Andy4495/MSP430LowPowerTempSensor)
