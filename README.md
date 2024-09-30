@@ -1,7 +1,7 @@
 # MSP430 Temperature Sensor
 
 [![Arduino Compile Sketches](https://github.com/Andy4495/MSP430LowPowerTempSensor/actions/workflows/arduino-compile-sketches.yml/badge.svg)](https://github.com/Andy4495/MSP430LowPowerTempSensor/actions/workflows/arduino-compile-sketches.yml)
-[![Check Markdown Links](https://github.com/Andy4495/MSP430LowPowerTempSensor/actions/workflows/CheckMarkdownLinks.yml/badge.svg)](https://github.com/Andy4495/MSP430LowPowerTempSensor/actions/workflows/CheckMarkdownLinks.yml)
+[![Check Markdown Links](https://github.com/Andy4495/MSP430LowPowerTempSensor/actions/workflows/check-links.yml/badge.svg)](https://github.com/Andy4495/MSP430LowPowerTempSensor/actions/workflows/check-links.yml)
 
 This project is a coin cell-powered wireless temperature sensor with with a [430BOOST-CC110L BoosterPack][4].
 
@@ -58,7 +58,6 @@ The software and other files in this repository are released under what is commo
 - ![Board Back](jpg/G2-Back.jpg)
 
 [1]: https://www.ti.com/lit/ds/symlink/msp430g2553.pdf
-<!-- markdown-link-check-disable-next-line -->
 [2]: https://www.digikey.com/en/products/detail/texas-instruments/430BOOST-CC110L/2812673
 [4]: https://www.ti.com/lit/ml/swru312b/swru312b.pdf
 [5]: https://github.com/Andy4495/Wireless-Sensor-Receiver-Hub
